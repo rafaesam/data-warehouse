@@ -18,7 +18,7 @@ RUN pip install -r requirements.txt
 COPY profiles.yml /root/.dbt/profiles.yml
 # Copy source code
 
-#COPY ./dwh /app
+COPY ./dwh1 /app
 
 # Export environement variables for dbt
 # Start the dbt
