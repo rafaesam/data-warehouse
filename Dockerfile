@@ -17,7 +17,9 @@ RUN pip install -r requirements.txt
 # Copy dbt profile
 COPY profiles.yml /root/.dbt/profiles.yml
 # Copy source code
-COPY ./new_dbt /app
+
+#COPY ./dwh /app
+
 # Export environement variables for dbt
 # Start the dbt
 CMD ["dbt-rpc", "serve"]
