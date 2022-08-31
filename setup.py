@@ -29,7 +29,7 @@ setup(
     include_package_data=True,
     keywords='dbt, data warehouse, traffic data',
     packages=['scripts'],
-    url="https://github.com/rafaesam/AgriTech-USGS-LIDAR",
+    url="https://github.com/rafaesam/data-warehouse",
     zip_safe=False
 )
 
